@@ -13,17 +13,33 @@ More information in the link above.
 &nbsp;  
 &nbsp;  
 
-### 2. Result
+### 2. Methods
+
+1. Logistic Regression  
+   Linear + ReLu  
+   85% accuracy  
+   &nbsp;  
+2. Z-score Normalized data + Logistic Regression  
+   Linear + Batch Norm + Dropout + ReLu  
+   90% accuracy  
+   &nbsp;   
+3. 
+
+&nbsp;
+&nbsp;
+
+### 3. Result
+
 &nbsp;  
 &nbsp;  
 
-### 3. How To Use
+### 4. How To Use
 &nbsp;  
 &nbsp;  
 
-### 4. File Structure
+### 5. File Structure
 &nbsp;  
 &nbsp;  
 
-### 5. Hyperparameters
+### 6. Hyperparameters
 
