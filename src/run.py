@@ -23,6 +23,7 @@ def init(device, data_path, method):
         if method != "method_1":
             data["input"] = dr.z_score_normalize(data["input"])
         data = dr.split_data(data)
+        pickle.dump(data, open(save_path, "wb"))
 
     utils.data = data
     model.device = device
